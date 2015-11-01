@@ -39,17 +39,17 @@ header {
           color: black;
           display: inline-block;
           padding: 0px 7px 10px;
-          &:hover {
+          &:hover, &.current {
             color: deeppink;
-            text-decoration: none;
+            text-decoration: none; 
+            span {
+              border-bottom: 2px solid deeppink;
+              padding-bottom: 3px;
+            }
           }
         }
         span {
           font-size: 1em;
-          &:hover {
-            border-bottom: 2px solid deeppink;
-            padding-bottom: 3px;
-          }
         }
       }
     }

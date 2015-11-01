@@ -41,7 +41,9 @@ color: deeppink;
 }
 .wrapper {
   width: 95%;
+  max-width: 1100px;
   margin: 0 auto 30px;
+  @include clearFix;
 }
 .about-text {
   margin-bottom: 30px;
@@ -86,4 +88,26 @@ footer {
   .wrapper {
     width: 90%;
   }
+ }
+
+ @media only screen and (min-width:900px)  {
+  .about-text {
+    float: left;
+    width: 62%;
+  }
+  .right-sidebar {
+    float: right;
+    width: 34%;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 0 20px;
+    background-color: #f1f1f1;
+    ul {
+      padding-left: 20px;
+      li {
+        padding-bottom: 5px;
+      }
+    }
+  }
+
  }

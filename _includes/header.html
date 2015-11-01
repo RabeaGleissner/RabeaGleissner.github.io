@@ -13,11 +13,11 @@
  <body>
   <header>
     <div class="name">Rabea Gleissner</div>
+    {% assign current = page.url | downcase | split: '/' %}
      <nav>
       <ul>
-        <li><a href="/"><span>About</span></a></li>
-        <li><a href="/blog"><span>Blog</span></a></li>
+        <li><a href="/" {% if current[1] != 'blog' %}class='current'{% endif %}><span>About</span></a></li>
+        <li><a href="/blog" {% if current[1] == 'blog' %}class='current'{% endif %}><span>Blog</span></a></li>
       </ul>
      </nav>
   </header>
-
