@@ -7,8 +7,8 @@ header {
   width: 100%;
   height: 60px;
   line-height: 60px;
+  overflow: hidden;
   @include clearFix;
-
   .name {
     float: left;
     line-height: 60px;
