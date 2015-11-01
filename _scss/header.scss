@@ -14,12 +14,13 @@ header {
   }
   nav {
     float: right;
-    width: 190px;
+    width: 150px;
     height: 60px;
     }
     ul {
-      padding-left: 1em;
-      list-style:none;
+      padding-left: 0;
+      width: 150px;
+      list-style: none;
       margin-top: 0;
       li {
         display: inline-block;
@@ -37,7 +38,7 @@ header {
           text-decoration: none;
           color: black;
           display: inline-block;
-          padding: 0px 15px 10px;
+          padding: 0px 7px 10px;
           &:hover {
             color: deeppink;
             text-decoration: none;
@@ -53,7 +54,7 @@ header {
       }
     }
   }
-@media only screen and (min-width:500px) {
+@media only screen and (min-width:400px) {
   header {
     .name {
       display: block;

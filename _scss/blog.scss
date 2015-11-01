@@ -1,3 +1,36 @@
 .blog-post {
   border-bottom: 1px solid lightgrey;
+  h2 {
+    margin-bottom: 0;
+  }
+}
+
+.post-date {
+  font-size: 0.85em;
+}
+
+.pagination {
+  ul {
+    @include clearFix;
+    padding-left: 0;
+  }
+  li {
+    display: inline-block;
+  }
+  .newer {
+    float: left;
+  }
+  .older {
+    float: right;
+  }
+}
+.my-other-blogs {
+  width: 95%;
+  margin: 40px auto;
+  li {
+    padding-bottom: 10px;
+  }
+}
+.see-all {
+  padding-top: 20px;
 }

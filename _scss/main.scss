@@ -67,6 +67,7 @@ color: deeppink;
 footer {
   p {
     width: 50%;
+    max-width: 245px;
     margin: 0 auto;
     font-size: 0.8em;
     border-top: 1px solid black;
@@ -84,6 +85,5 @@ footer {
   }
   .wrapper {
     width: 90%;
-    margin: 0 auto;
   }
  }

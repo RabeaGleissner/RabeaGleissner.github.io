@@ -6,7 +6,7 @@ layout: blog
 {% for post in paginator.posts %}
 <article class="blog-post">
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  <h4>{{ post.date | date_to_long_string }}</h4>
+  <p class="post-date">{{ post.date | date_to_long_string }}</p>
   {{ post.content | split:'<!--break-->' | first }}
   {% if post.content contains '<!--break-->' %}
     <p><a href="{{ site.baseurl }}{{ post.url }}">Read more...</a></p>
@@ -18,17 +18,17 @@ layout: blog
   <ul>
     {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
-      <li><a href="/blog">Newer posts</a></li>
+      <li class="newer"><a href="/blog">&lt; &lt; Newer posts</a></li>
     {% else %}
-      <li><a href="/blog/page{{ paginator.previous_page }}">Newer posts</a></li>
+      <li class="newer"><a href="/blog/page{{ paginator.previous_page }}">&lt; &lt; Newer posts</a></li>
     {% endif %}
     {% else %}
-      <li><span class="disabled">Newer posts</span></li>
+      <li class="newer"><span class="disabled">&lt; &lt; Newer posts</span></li>
     {% endif %}
     {% if paginator.next_page %}
-      <li><a href="/blog/page{{ paginator.next_page }}">Older posts</a></li>
+      <li class="older"><a href="/blog/page{{ paginator.next_page }}">Older posts &gt; &gt;</a></li>
     {% else %}
-      <li><span class="disabled">Older posts</span></li>
+      <li class="older"><span class="disabled">Older posts &gt; &gt;</span></li>
     {% endif %}
   </ul>
 </div>
