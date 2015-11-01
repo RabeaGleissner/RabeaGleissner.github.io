@@ -5,7 +5,11 @@ layout: post
 
 If you had told me a year ago that I would be working as a developer now, I wouldn’t have believed you. A developer? Me? Surely that’s waaaaayy to difficult.
 
-But what I barely even dared to dream of when I applied for various bootcamps in September 2014 has indeed come true: I work as a developer now! Have been for over two months actually. And I write code all day! For money! And that code actually gets merged into the master branch! And people see on the website! (Well, not the code. That would be weird. You know what I mean).
+<!--break-->
+
+But what I barely even dared to dream of when I applied for various bootcamps in September 2014 has indeed come true: I work as a developer now! 
+
+Have been for over two months actually. And I write code all day! For money! And that code actually gets merged into the master branch! And people see on the website! (Well, not the code. That would be weird. You know what I mean).
 
 So what is it like, I hear mid-2014 Rabea asking. Well, let me tell you, my former self: it’s awesome. I love it.
 

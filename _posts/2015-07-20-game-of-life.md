@@ -5,6 +5,8 @@ layout: post
 
 In my quest to become a better developer, I try to practise test driven development (TDD) by doing different code katas or challenges. We don’t use TDD at work, so due to a mix of my desire to one day be a really good developer and my [FOMO](http://www.urbandictionary.com/define.php?term=fomo){:target="_blank"}, I try to practise it when I have some free time.
 
+<!--break-->
+
 So over the last few weeks I attempted Conway’s Game of Life (GoL) a few times and I feel like it has taught me or at least reminded me of a few things about coding, which I thought I’d share.
 
 ##So what is this Game of Life?

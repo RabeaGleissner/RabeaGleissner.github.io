@@ -5,6 +5,8 @@ layout: post
 
 An aspect of my current job that I find quite difficult at the moment is estimating how long it will take me to create a feature. We work following Agile principles and will usually have a sprint planning session with the team during which we have to estimate the time it will take us to code a particular requirement.
 
+<!--break-->
+
 In my first few weeks, I often either thought “I have not the faintest clue because I don’t even know how to approach this thing” or I thought “Ah, I know that one! That sounds easy. I can do that in a day!”.
 
 The latter was very dangerous - I completely underestimated the duration. Everything always took much, much longer!

@@ -4,6 +4,8 @@ layout: post
 ---
 I finished the General Assembly web development bootcamp at the end of February and haven’t really blogged since.
 
+<!--break-->
+
 However, it turns out that people were actually reading [my blog about my bootcamp experience](http://rabeameetscode.wordpress.com/){:target="_blank"}. From time to time I receive an email from a reader asking me about my opinion about General Assembly or someone at a tech meetup recognises me because of it. Very flattering!
 
 I enjoyed writing it and I’m glad I have it as a record of these rather extraordinary three months. So I’ve decided to continue writing - about my new job as a developer, about my continuous learning and about code.
