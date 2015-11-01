@@ -1,0 +1,8 @@
+{% include header.html %}
+  <div class="wrapper post">
+    <h1>{{page.title}}</h1>
+    <p class="date">{{ page.date | date_to_long_string }}</p>
+    {{ content }}
+  </div>
+  <p><a href="/blog">See all blog posts</a></p>
+{% include footer.html %}

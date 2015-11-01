@@ -1,0 +1,22 @@
+name: Rabea Gleissner
+description: > #
+  "Rabea Gleissner's personal website and blog"
+
+url: "http://www.rabea.co.uk"
+linkedin: "https://www.linkedin.com/profile/view?id=6245926"
+twitter: "https://twitter.com/aebaR"
+github:  "https://github.com/rabeagleissner"
+
+paginate: 2
+paginate_path: "blog/page:num/"
+
+permalink: /blog/:categories/:title
+
+markdown: kramdown
+
+sass:
+    sass_dir: _scss
+    style: compressed
+
+exclude: ['README.md']
+exclude: [".sass-cache", "_site"]
