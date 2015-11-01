@@ -2,6 +2,8 @@ name: Rabea Gleissner
 description: > #
   "Rabea Gleissner's personal website and blog"
 
+baseurl: ""
+
 url: "http://www.rabea.co.uk"
 linkedin: "https://www.linkedin.com/profile/view?id=6245926"
 twitter: "https://twitter.com/aebaR"

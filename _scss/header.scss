@@ -10,6 +10,9 @@ header {
   @include clearFix;
 
   .name {
+    float: left;
+    line-height: 60px;
+    font-size: 1.2em;
     display: none;
   }
   nav {
@@ -58,13 +61,6 @@ header {
   header {
     .name {
       display: block;
-      float: left;
-      line-height: 60px;
-      height: 60px;
-      width: 160px;
-      font-size: 1.2em;
-      margin-left: 15px;
-      font-style: italic;
       h3 {
         margin-top: 0;
       }

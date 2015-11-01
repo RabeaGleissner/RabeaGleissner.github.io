@@ -6,18 +6,21 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="description" content="{{ site.description }}">
    <meta name="author" content="Rabea Gleissner">
-   <link rel="icon" href="public/images/favicon.gif" type="image/gif">
-   <link rel="icon" href="public/images/favicon.png" type="image/png">
+   <link rel="icon" href="/public/images/favicon.gif" type="image/gif">
+   <link rel="icon" href="/public/images/favicon.png" type="image/png">
    <link href="/public/css/main.css" rel="stylesheet">
  </head>
  <body>
-  <header>
-    <div class="name">Rabea Gleissner</div>
-    {% assign current = page.url | downcase | split: '/' %}
-     <nav>
-      <ul>
-        <li><a href="/" {% if current[1] != 'blog' %}class='current'{% endif %}><span>About</span></a></li>
-        <li><a href="/blog" {% if current[1] == 'blog' %}class='current'{% endif %}><span>Blog</span></a></li>
-      </ul>
-     </nav>
-  </header>
+  <div class="page-wrap">
+    <header>
+      <div class="wrapper">
+        <div class="name">Rabea Gleissner</div>
+        {% assign current = page.url | downcase | split: '/' %}
+         <nav>
+          <ul>
+            <li><a href="/" {% if current[1] != 'blog' %}class='current'{% endif %}><span>About</span></a></li>
+            <li><a href="/blog" {% if current[1] == 'blog' %}class='current'{% endif %}><span>Blog</span></a></li>
+          </ul>
+        </nav>
+       </div>
+    </header>
