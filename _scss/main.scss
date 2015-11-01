@@ -1,7 +1,14 @@
 @import 'mixins';
 
+* {
+  box-sizing:border-box;
+}
 html {
   height: 100%;
+  background-color: white;
+}
+a, a img {
+  transition: 0.2s;
 }
 body {
  font-family: 'roboto', sans-serif;
@@ -34,7 +41,37 @@ color: deeppink;
 }
 .wrapper {
   width: 95%;
-  margin: 0 auto;
+  margin: 0 auto 30px;
+}
+.about-text {
+  margin-bottom: 30px;
+}
+.right-sidebar {
+  margin-bottom: 30px;
+}
+.social {
+  ul {
+    padding-left: 0;
+    li {
+      list-style: none;
+      display: inline-block;
+      a:hover img {
+        opacity: 0.6;
+      }
+      img {
+        width: 50px;
+      }
+    }
+  }
+}
+footer {
+  p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 0.8em;
+    border-top: 1px solid black;
+    padding-top: 10px;
+  }
 }
 
 @media only screen and (min-width:600px)  {

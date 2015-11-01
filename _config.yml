@@ -6,6 +6,8 @@ url: "http://www.rabea.co.uk"
 linkedin: "https://www.linkedin.com/profile/view?id=6245926"
 twitter: "https://twitter.com/aebaR"
 github:  "https://github.com/rabeagleissner"
+flickr: "http://www.flickr.com/photos/rabeasfotos/"
+instagram: "http://instagram.com/hellorabea"
 
 paginate: 2
 paginate_path: "blog/page:num/"
