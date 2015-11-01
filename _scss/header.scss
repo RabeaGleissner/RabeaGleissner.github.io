@@ -1,0 +1,49 @@
+@import 'mixins';
+
+nav {
+  width: 100%;
+  background-color: rgba(255,255,255,0.8);
+  @include vendor-prefix('box-shadow', '0px 3px 5px 1px #ccc');
+  display:block;
+  button {
+    margin-left: 0;
+    padding-left: 15px;
+    display: none;
+    &:focus {
+      outline:0;
+    }
+  }
+  ul {
+    padding-left: 1em;
+    list-style:none;
+    margin-top: 0;
+    li {
+      display: inline-block;
+      line-height: 60px;
+      height: 60px;
+      cursor:pointer;
+      &:after {
+        content:"|";
+      }
+      &:last-child:after {
+        display: none;
+      }
+    }
+  }
+  h3 {
+    line-height: 0em;
+    font-size: 1em;
+    padding-left: 15px; 
+    padding-right: 15px; 
+    padding-top: 10px;
+  }
+  a {
+    text-decoration:none;
+    color:black;
+    display:inline-block;
+    &:hover {
+      color:deeppink;
+      border-bottom: 2px solid deeppink;
+    }
+  }
+}
