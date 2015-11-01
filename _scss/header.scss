@@ -1,49 +1,74 @@
 @import 'mixins';
 
-nav {
-  width: 100%;
+header {
   background-color: rgba(255,255,255,0.8);
   @include vendor-prefix('box-shadow', '0px 3px 5px 1px #ccc');
   display:block;
-  button {
-    margin-left: 0;
-    padding-left: 15px;
-    display: none;
-    &:focus {
-      outline:0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  @include clearFix;
+
+  .name {
+    float: left;
+    width: 68px;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 60px;
+    height: 60px;
+    font-size: 1.2em;
+    margin-left: 15px;
+    font-style: italic;
+    h3 {
+      margin-top: 0;
     }
   }
-  ul {
-    padding-left: 1em;
-    list-style:none;
-    margin-top: 0;
-    li {
-      display: inline-block;
-      line-height: 60px;
-      height: 60px;
-      cursor:pointer;
-      &:after {
-        content:"|";
-      }
-      &:last-child:after {
-        display: none;
+  nav {
+    float: right;
+    width: 190px;
+    height: 60px;
+    }
+    ul {
+      padding-left: 1em;
+      list-style:none;
+      margin-top: 0;
+      li {
+        display: inline-block;
+        line-height: 60px;
+        height: 60px;
+        cursor: pointer;
+        font-size: 1.2em;
+        &:after {
+          content:"|";
+        }
+        &:last-child:after {
+          display: none;
+        }
+        a {
+          text-decoration: none;
+          color: black;
+          display: inline-block;
+          padding: 0px 15px 10px;
+          &:hover {
+            color: deeppink;
+            text-decoration: none;
+          }
+        }
+        span {
+          font-size: 1em;
+          &:hover {
+            border-bottom: 2px solid deeppink;
+            padding-bottom: 3px;
+          }
+        }
       }
     }
   }
-  h3 {
-    line-height: 0em;
-    font-size: 1em;
-    padding-left: 15px; 
-    padding-right: 15px; 
-    padding-top: 10px;
-  }
-  a {
-    text-decoration:none;
-    color:black;
-    display:inline-block;
-    &:hover {
-      color:deeppink;
-      border-bottom: 2px solid deeppink;
+@media only screen and (min-width:500px) {
+  header {
+    .name {
+      width: 160px;
     }
   }
 }
+

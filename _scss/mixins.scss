@@ -21,7 +21,7 @@
   }
 }
 
-@mixin clearEl {
+@mixin clearFix {
   &:after {
       content: '';
       display: block;
