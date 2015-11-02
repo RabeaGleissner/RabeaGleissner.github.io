@@ -11,7 +11,7 @@ github:  "https://github.com/rabeagleissner"
 flickr: "http://www.flickr.com/photos/rabeasfotos/"
 instagram: "http://instagram.com/hellorabea"
 
-paginate: 2
+paginate: 5
 paginate_path: "blog/page:num/"
 
 permalink: /blog/:categories/:title
