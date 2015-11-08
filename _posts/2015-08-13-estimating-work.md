@@ -1,5 +1,6 @@
 ---
 title: Estimating work is hard
+comments: true
 layout: post
 ---
 

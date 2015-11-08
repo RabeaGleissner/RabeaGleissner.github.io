@@ -1,5 +1,6 @@
 ---
 title: What Game of Life recently taught me
+comments: true
 layout: post
 ---
 
