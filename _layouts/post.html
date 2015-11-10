@@ -1,7 +1,7 @@
 {% include header.html %}
   <div class="wrapper post">
     <h1>{{page.title}}</h1>
-    <p class="date">{{ page.date | date_to_long_string }}</p>
+    <p class="date"><span>{{ page.date | date_to_long_string }} · {{page.read-time}} minute read</span></p>
     {{ content }}
     <p class="see-all"><a href="/blog">See all blog posts</a></p>
   

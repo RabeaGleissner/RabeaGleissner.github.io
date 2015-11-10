@@ -10,11 +10,19 @@
   }
 }
 .post {
-  max-width: 900px;
+  max-width: 800px;
+  .date {
+    font-size: 0.85em;
+    width: auto;
+    span {
+      background-color: #f1f1f1; 
+    }
+  }
+  p {
+    line-height: 1.3em;
+  }
 }
-.post-date {
-  font-size: 0.85em;
-}
+
 
 .pagination {
   ul {
@@ -58,6 +66,14 @@
   .posts {
     float: left;
     width: 67%;
+  }
+  .post {
+    p {
+      font-size: 1.1em;
+    }
+    .date {
+      font-size: 0.95em;
+    }
   }
   .my-other-blogs {
     width: 28%;

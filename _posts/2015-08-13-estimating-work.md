@@ -2,6 +2,7 @@
 title: Estimating work is hard
 comments: true
 layout: post
+read-time: 2
 ---
 
 An aspect of my current job that I find quite difficult at the moment is estimating how long it will take me to create a feature. We work following Agile principles and will usually have a sprint planning session with the team during which we have to estimate the time it will take us to code a particular requirement.

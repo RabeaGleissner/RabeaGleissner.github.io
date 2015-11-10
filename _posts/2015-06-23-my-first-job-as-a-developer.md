@@ -2,6 +2,7 @@
 title: My first job as a developer
 comments: true
 layout: post
+read-time: 4
 ---
 
 If you had told me a year ago that I would be working as a developer now, I wouldn’t have believed you. A developer? Me? Surely that’s waaaaayy to difficult.

@@ -2,6 +2,7 @@
 title: Life after the bootcamp
 comments: true
 layout: post
+read-time: 4
 ---
 I finished the General Assembly web development bootcamp at the end of February and haven’t really blogged since.
 
