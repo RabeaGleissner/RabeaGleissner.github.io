@@ -2,6 +2,7 @@
 title: What Game of Life recently taught me
 comments: true
 layout: post
+read-time: 5
 ---
 
 In my quest to become a better developer, I try to practise test driven development (TDD) by doing different code katas or challenges. We don’t use TDD at work, so due to a mix of my desire to one day be a really good developer and my [FOMO](http://www.urbandictionary.com/define.php?term=fomo){:target="_blank"}, I try to practise it when I have some free time.
