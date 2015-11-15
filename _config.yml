@@ -11,6 +11,7 @@ github:  "https://github.com/rabeagleissner"
 flickr: "http://www.flickr.com/photos/rabeasfotos/"
 instagram: "http://instagram.com/hellorabea"
 
+gems: [jekyll-paginate]
 paginate: 5
 paginate_path: "blog/page:num/"
 
