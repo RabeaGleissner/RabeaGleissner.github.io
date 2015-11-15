@@ -11,7 +11,7 @@ Yesterday was Global Day of Coderetreat and I attended the event for the first t
 
 When I first heard about a coderetreat, I imagined something like this. Just replace the yoga with coding.
 
-![yoga retreat](../public/images/yoga-retreat.jpg "Tree posers during a yoga retreat")
+![yoga retreat](../../public/images/yoga-retreat.jpg "Tree posers during a yoga retreat")
 
 
 Turns out, it’s not quite a three week holiday under Indian palm trees, enjoying Ayurvedic food (is that enjoyable? I don’t think I’ve ever had it) and returning home a spiritually enlightened person with very stretchy legs.
