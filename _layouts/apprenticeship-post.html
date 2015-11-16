@@ -1,0 +1,29 @@
+{% include header.html %}
+  <div class="wrapper post apprenticeship">
+    <h1>{{page.title}}</h1>
+    <p class="date"><span>{{ page.date | date_to_long_string }} · {{page.read-time}} minute read</span></p>
+    {{ content }}
+    <p class="see-all"><a href="/apprenticeship">See all apprenticeship blog posts</a></p>
+  
+  {% if page.comments %}
+    <div id="disqus_thread"></div>
+      <script>
+          var disqus_config = function () {
+              this.page.url = "http://rabea.co.uk";
+              // this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          };
+          
+          (function() {  // DON'T EDIT BELOW THIS LINE
+              var d = document, s = d.createElement('script');
+              // var disqus_developer = 1; // Comment out when the site is live
+              
+              s.src = '//rabea.disqus.com/embed.js';
+              
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+          })();
+      </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  {% endif %}
+  </div>
+{% include footer.html %}
