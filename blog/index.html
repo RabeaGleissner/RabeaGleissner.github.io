@@ -3,7 +3,7 @@ title: Blog
 layout: blog
 ---
 
-{% for post in paginator.posts %}
+{% for post in site.categories.personal %}
 <article class="blog-post">
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   <p class="post-date">{{ post.date | date_to_long_string }}</p>
@@ -14,7 +14,7 @@ layout: blog
 </article>
 {% endfor %}
 
-<div class="pagination">
+<!-- <div class="pagination">
   <ul>
     {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
@@ -32,3 +32,4 @@ layout: blog
     {% endif %}
   </ul>
 </div>
+ -->
