@@ -2,6 +2,7 @@
 title: Global Day of Coderetreat
 comments: true
 layout: post
+category: personal
 read-time: 2
 ---
 

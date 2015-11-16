@@ -2,6 +2,7 @@
 title: What Game of Life recently taught me
 comments: true
 layout: post
+category: personal
 read-time: 5
 ---
 

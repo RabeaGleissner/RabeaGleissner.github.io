@@ -2,6 +2,7 @@
 title: All the female developers
 comments: true
 layout: post
+category: personal
 read-time: 3
 ---
 

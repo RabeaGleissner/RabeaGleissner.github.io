@@ -2,6 +2,7 @@
 title: My first job as a developer
 comments: true
 layout: post
+category: personal
 read-time: 4
 ---
 

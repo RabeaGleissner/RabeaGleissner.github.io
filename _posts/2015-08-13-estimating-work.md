@@ -2,6 +2,7 @@
 title: Estimating work is hard
 comments: true
 layout: post
+category: personal
 read-time: 2
 ---
 
