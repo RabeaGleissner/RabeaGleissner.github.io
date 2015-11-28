@@ -26,7 +26,7 @@ I just completed my second week there and it is fantastic.
 
 8th Light is a software consulting company which writes applications, works with clients to improve their existing codebase and teaches best practises. 8th Light considers writing software to be a craft. Code should be written in a way that makes it easily maintainable and enhanceable.
 
-A big part of achieving this is Test Driven Development (TDD). It means that we need to write a test before we can write any code. The code then needs to make the test pass. And then we can write another test and more code etc. Sounds a bit tedious at first but trust me, two weeks in, I understand why you want to do it that way. In fact, looking back at my previous experience, I wish everyone would practise TDD. Not only because your code is less likely to have bugs. But also because it improvs the design of the application and forces to make code more modular (otherwise it's hard to test).
+A big part of achieving this is Test Driven Development (TDD). It means that we need to write a test before we can write any code. The code then needs to make the test pass. And then we can write another test and more code etc. Sounds a bit tedious at first but trust me, two weeks in, I understand why you want to do it that way. In fact, looking back at my previous experience, I wish everyone would practise TDD. Not only because your code is less likely to have bugs. But also because it improves the design of the application and forces to make code more modular (otherwise it's hard to test).
 
 Code quality is a huge focus at 8th Light. Which suits me just fine, because that's what I want to learn: how to write good code. 
 
