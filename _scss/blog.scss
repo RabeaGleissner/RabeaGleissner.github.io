@@ -22,9 +22,12 @@
     line-height: 1.4em;
   }
   code {
-  padding: 2px 5px 2px 5px;
-  background-color: #ffd9ed;
+    background-color: #ffd9ed;
   }
+  code[class^='language'], code[class*=' language']{
+      font-size: 13px;
+      background-color: #FFF7F8;
+    }
 }
 .apprenticeship {
   h1 {
