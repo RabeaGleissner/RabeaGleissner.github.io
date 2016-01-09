@@ -8,20 +8,22 @@
   {% if page.comments %}
     <div id="disqus_thread"></div>
       <script>
-          var disqus_config = function () {
-              this.page.url = "http://rabea.co.uk";
-              // this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-          };
+        var disqus_shortname = "rabea";
+        var disqus_identifier = "{{page.url}}";
+     // var disqus_developer = 1; // Comment out when the site is live
+        // var disqus_config = function () {
+        //     this.page.url = "{{ page.url }}";
+        //     this.page.identifier = "{{ page.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        // };
           
-          (function() {  // DON'T EDIT BELOW THIS LINE
-              var d = document, s = d.createElement('script');
-              // var disqus_developer = 1; // Comment out when the site is live
-              
-              s.src = '//rabea.disqus.com/embed.js';
-              
-              s.setAttribute('data-timestamp', +new Date());
-              (d.head || d.body).appendChild(s);
-          })();
+        (function() {  // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            
+            s.src = '//rabea.disqus.com/embed.js';
+            
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
       </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
   {% endif %}
