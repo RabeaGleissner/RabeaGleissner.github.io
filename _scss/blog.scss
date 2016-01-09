@@ -9,6 +9,29 @@
     margin-bottom: 0;
   }
 }
+.up-link {
+  height: 0px;
+  margin-bottom: 0;
+}
+.see-all-appr-posts {
+  float: right;
+  width: 120px;
+  display: none;
+}
+.apprenticeship-blog-title {
+  text-align: center;
+  margin-bottom: 40px;
+  h2 {
+    font-size: 1.7em;
+    margin-bottom: 12px;
+  }
+  hr {
+    width: 50px;
+  }
+  h4 {
+    margin-top: 12px;
+  }
+}
 .post {
   max-width: 800px;
   .date {
@@ -98,5 +121,19 @@
       margin: 20px 0 0;
     }
   }
-
 }
+@media only screen and (min-width:1000px) {
+  .see-all-appr-posts {
+    display: block;
+  }
+}
+/*@media only screen and (min-width:1200px) {
+  .see-all-appr-posts {
+    margin-left: calc(100% - 150px);
+  }
+}
+@media only screen and (min-width:1200px) {
+  .see-all-appr-posts {
+    margin-left: calc(100% - 150px);
+  }
+}*/
