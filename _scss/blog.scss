@@ -97,6 +97,25 @@
   padding-top: 20px;
 }
 
+.hundred-photos {
+  text-align: center;
+  aside {
+    width: 50%;
+    background-color: #f1f1f1;
+    padding: 10px 15px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  #instafeed {
+    p {
+      margin-bottom: 50px;
+    }
+    img {
+    max-width: 100%;
+  }
+}
+}
+
 @media only screen and (min-width:900px) {
   .blog {
     margin-top: 20px;
@@ -122,6 +141,7 @@
     }
   }
 }
+
 @media only screen and (min-width:1000px) {
   .see-all-appr-posts {
     display: block;
