@@ -99,7 +99,7 @@
 
 .hundred-photos {
   text-align: center;
-  aside {
+  .intro {
     width: 50%;
     background-color: #f1f1f1;
     padding: 10px 15px;
@@ -107,8 +107,11 @@
     margin-bottom: 20px;
   }
   #instafeed {
+    padding-left: 0;
+    list-style: none;
     p {
-      margin-bottom: 50px;
+      max-width: 650px;
+      margin: 20px auto 50px;
     }
     img {
     max-width: 100%;
@@ -147,13 +150,10 @@
     display: block;
   }
 }
-/*@media only screen and (min-width:1200px) {
-  .see-all-appr-posts {
-    margin-left: calc(100% - 150px);
+@media only screen and (max-width:1000px) {
+  .hundred-photos {
+    .intro {
+      width: 100%;
+    }
   }
 }
-@media only screen and (min-width:1200px) {
-  .see-all-appr-posts {
-    margin-left: calc(100% - 150px);
-  }
-}*/
