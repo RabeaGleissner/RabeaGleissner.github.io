@@ -2,9 +2,30 @@
 
 .blog {
   margin-top: 10px;
+  h1 {
+    text-align: left;
+  }
+  .grey-box {
+    background-color: #f1f1f1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 1px 20px;
+  }
+  .intro {
+    margin-bottom: 30px;
+    .eighth-light {
+      color: #1BC0F7;
+    }
+  }
+  .my-other-blogs {
+    margin-top: 0;
+  }
 }
 .blog-post {
   border-bottom: 1px solid lightgrey;
+  &:first-child {
+    border-top: 1px solid lightgrey;
+  }
   h2 {
     margin-bottom: 0;
   }
@@ -81,11 +102,7 @@
   }
 }
 .my-other-blogs {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  padding: 1px 20px;
-  background-color: #f1f1f1;
-  width: 100%;
+ width: 100%;
   ul {
     padding-left: 20px;
     li {
@@ -98,13 +115,13 @@
 }
 
 .hundred-photos {
+  h1 {
+    text-align: center;
+  }
   text-align: center;
   .intro {
     width: 50%;
-    background-color: #f1f1f1;
-    padding: 10px 15px;
     margin: 0 auto;
-    margin-bottom: 20px;
   }
   #instafeed {
     padding-left: 0;
@@ -141,6 +158,7 @@
     }
   }
   .my-other-blogs {
+    margin-top: 260px;
     width: 28%;
     float: right;
     h4 {
