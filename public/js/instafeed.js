@@ -36,7 +36,7 @@ function addDayNumber() {
 
 function calculateDayNumber() {
     var oneDay = 24*60*60*1000;
-    var endDate = new Date(2016,04,27);
+    var endDate = new Date(2016,03,27);
     var today = new Date();
     var firstDate;
 
@@ -48,6 +48,5 @@ function calculateDayNumber() {
     }
 
     var diffDays = Math.round(Math.abs((firstDate.getTime() - endDate.getTime())/(oneDay)));
-    // no idea why minus 100 isn't enough but it seems to be 8 days off
-    return diffDays - 108;
+    return -(diffDays - 100);
 }
