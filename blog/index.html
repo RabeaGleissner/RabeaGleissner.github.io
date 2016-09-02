@@ -13,23 +13,3 @@ layout: blog
   {% endif %}
 </article>
 {% endfor %}
-
-<!-- <div class="pagination">
-  <ul>
-    {% if paginator.previous_page %}
-    {% if paginator.previous_page == 1 %}
-      <li class="newer"><a href="/blog">&lt; &lt; Newer posts</a></li>
-    {% else %}
-      <li class="newer"><a href="/blog/page{{ paginator.previous_page }}">&lt; &lt; Newer posts</a></li>
-    {% endif %}
-    {% else %}
-      <li class="newer hide"><span>&lt; &lt; Newer posts</span></li>
-    {% endif %}
-    {% if paginator.next_page %}
-      <li class="older"><a href="/blog/page{{ paginator.next_page }}">Older posts &gt; &gt;</a></li>
-    {% else %}
-      <li class="older hide"><span>Older posts &gt; &gt;</span></li>
-    {% endif %}
-  </ul>
-</div>
- -->
