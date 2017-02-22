@@ -2,7 +2,8 @@
 
 A simple blog and about me page created with Jekyll.
 
-### Ruby gem dependencies:
+### How to run it locally
 
-- jekyll
-- jekyll-paginate
+`bundle install`
+
+`jekyll serve --watch`
