@@ -6,4 +6,4 @@ A simple blog and about me page created with Jekyll.
 
 `bundle install`
 
-`jekyll serve --watch`
+`bundle exec jekyll serve --watch`
